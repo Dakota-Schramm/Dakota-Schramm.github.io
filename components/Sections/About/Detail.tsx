@@ -52,7 +52,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         What i do.
       </Heading>
       <Text variant="description">
-        In my {professionalYears} years of working professionally as a{' '} 
+        In my {professionalYears} years of working professionally as a{' '}
         <b>Software Engineer</b>, my curiosity has led me to{' '}
         <Tooltip
           label="work on all different levels of the project"
@@ -60,25 +60,33 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           hasArrow
         >
           <Text as="span" variant="emphasis">
-            <b>wear many hats</b>
+            <b>wear many hats 🎩</b>
           </Text>
         </Tooltip>{' '}
-        working on 
+        working on
       </Text>
 
-      <UnorderedList
-        paddingLeft={8}
-        listStyleType="disc"
-      >
-        <ListItem>🧑‍🎨 <b>frontend bits</b> like design systems and animation</ListItem>
-        <ListItem>👨‍🔧 <b>backend bits</b> like databases</ListItem>
-        <ListItem>👨‍🚒 <b>devops bits</b> CI/CD</ListItem>
-        <ListItem>👨‍🔬 <b>testing</b></ListItem>
+      <UnorderedList paddingLeft={8} listStyleType="disc">
+        <ListItem>
+          🧑‍🎨 <b>frontend</b> (animation, design systems, component-based architecture)
+        </ListItem>
+        <ListItem>
+          👨‍🔧 <b>backend</b> (databases, APIs, caching)
+        </ListItem>
+        <ListItem>
+          👨‍🚒 <b>devops</b> (CI/CD, infrastructure as code, monitoring)
+        </ListItem>
+        <ListItem>
+          👨‍🔬 <b>testing</b> (unit, integration, e2e, performance)
+        </ListItem>
       </UnorderedList>
 
       <Text>
         I am deeply passionate about developer experience topics such as{' '}
-        <b>code formatting and styling</b>, <b></b>
+        <b>developer experience</b>,{' '}
+        <b>test driven development</b>, and{' '}
+        <b>AI integration</b>
+        <b></b>
         <br /> <br />
         Here are some of the specific technologies I've worked with:{' '}
       </Text>
