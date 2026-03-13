@@ -18,7 +18,6 @@ import About from 'components/Sections/About'
 import Experience from 'components/Sections/Experience'
 import FeaturedWorks from 'components/Sections/FeaturedWorks'
 import ScrollMore from 'components/Misc/ScrollMore'
-import { Article } from 'types/article'
 import Education from 'components/Sections/Education';
 // These are on bottom sections so no need to render it instantly
 const GetInTouch = dynamic(() => import('components/Sections/GetInTouch'))
