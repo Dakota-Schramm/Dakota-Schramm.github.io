@@ -31,6 +31,8 @@ jobs:
 
       - name: Build with Next.js 🏗️
         run: npx next build && npx next export
+        env:
+          NEXT_PUBLIC_ANALYTICS_ID: ${{ secrets.NEXT_PUBLIC_ANALYTICS_ID }}
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
