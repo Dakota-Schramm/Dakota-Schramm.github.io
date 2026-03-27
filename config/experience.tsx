@@ -19,7 +19,7 @@ export type CompanyDetail = {
 export const Experiences: {
   [key: string]: CompanyDetail
 } = {
-  "410Labs": {
+  '410Labs': {
     name: '410 Labs',
     // longName: 'Deloitte Consulthing Phils. Delivery Center',
     // subDetail: 'Consulthing Phils. Delivery Center',
@@ -32,19 +32,34 @@ export const Experiences: {
     },
     roles: [
       <>
-       Contributed to the design and development of two prototypes for Mailstrom and
-       Chuck.
-       Implementation of Payments API (Stripe), Auth (Passwordless)
+        Built a complete Next.js/React/TypeScript prototype using component
+        based architecture (modals, animations via Framer Motion, gamification,
+        mobile layouts), and delivered production UI features including landing
+        pages with A/B testing, a testimonial carousel, redesigned auth flows,
+        and accessibility tooling (axe-core, jsx-a11y).
       </>,
       <>
-        Worked on frontend prototype for Mailstrom using Nextjs and Tailwind.
+        Built Stripe billing infrastructure -- checkout flows, webhook handling,
+        subscription lifecycle management, and payment portals -- plus
+        passwordless auth, admin dashboards, Kubernetes configs, error handling
+        hardening, thread-safe Vault access, and background job pipelines.
       </>,
       <>
-        Involved in every day maintenance of Mailstrom and Chuck, using CI/CD 
-        (Github Action, CircleCI, ArgoCD, Airbrake, Dependabot)
-        Demoing of material from staging
+        Drove multi-year build tooling migrations (Sprockets to Vite,
+        sassc-rails to dartsass-rails, Enzyme to react-testing-library, Backbone
+        globals to CJS modules, Axios to native fetch), stood up
+        ViewComponent/Lookbook with MirageJS mock servers across projects, and
+        established CI/CD pipelines with GitHub Actions, Dependabot grouping,
+        linter annotations, and Docker/devcontainer configs.
       </>,
-
+      <>
+        Built an AI-powered email-to-calendar extraction engine
+        using Claude and Gemini APIs with batched prompting, rate limiting,
+        token-cost optimization, and a CSV-based prompt strategy -- backed by a
+        prompt consistency testing framework, SolidQueue background
+        jobs with per-user concurrency limits and priority scheduling, and
+        per-user LLM cost tracking.
+      </>
     ],
   },
 }
