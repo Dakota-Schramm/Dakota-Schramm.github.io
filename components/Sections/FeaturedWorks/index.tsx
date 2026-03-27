@@ -43,7 +43,7 @@ const FeaturedWorksSection = () => {
             idx={1}
             title="Yahtzee!"
             src="/works/yahtzee.png"
-            description="A yahtzee game made using state machines. Made using Nextjs, TailwindCss, React-Icons and XState."
+            description="A fully playable Yahtzee dice game that replaces tangled useState chains with XState finite state machines to manage complex, interdependent dice game state through explicit, predictable state transitions — modeling the full game lifecycle (welcome → rolling → deciding → scoring → game over) with a complete ruleset including bonus tracking and joker rules."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://dakotaschramm.com/next-yahtzee/"
             objectPosition="right 20%"
@@ -55,7 +55,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={2}
             title="Study Guide IO"
-            description="An app to help you transform your notes into cornell style notes with questions and answers. Made using Nextjs, TailwindCss and Web Storage API"
+            description="A browser-based study tool that transforms PDFs and images into organized study materials entirely client-side — enabling students to merge documents, generate Cornell Notes, and manage course materials with a privacy-first, offline-capable architecture that eliminates the need to upload sensitive academic content to external servers."
             src="/works/study-guide-io.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://github.com/Dakota-Schramm/study-guide-io"
