@@ -109,23 +109,38 @@ const Sidebar = () => {
             for looking at my personal site!
             <br />I am a software engineer that specializes in Javascript and Ruby full stack development.
           </MotionText>
-          <MotionButton
-            size="lg"
-            variant="outline"
-            borderWidth="1px"
-            borderRadius="0"
-            fontWeight="normal"
-            fontSize="sm"
-            width="120px"
+          <MotionBox
+            display="flex"
+            alignItems="center"
+            gap={4}
             variants={simpleOpacity}
-            as={'a'}
-            href="mailto:william.schramm11@gmail.com"
-            target="_blank"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
           >
-            Get in touch!
-          </MotionButton>
+            <MotionButton
+              size="lg"
+              variant="outline"
+              borderWidth="1px"
+              borderRadius="0"
+              fontWeight="normal"
+              fontSize="sm"
+              width="120px"
+              as={'a'}
+              href="mailto:william.schramm11@gmail.com"
+              target="_blank"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              Get in touch!
+            </MotionButton>
+            <Box className={styles.pingBadge}>
+              <span className={styles.pingDot}>
+                <span className={styles.pingDotRing} />
+                <span className={styles.pingDotCore} />
+              </span>
+              <Text fontSize="xs" fontWeight="semibold" variant="emphasis">
+                Looking for Work
+              </Text>
+            </Box>
+          </MotionBox>
 
           <MotionBox d="flex" variants={simpleOpacity}>
             {SocialMedias.map((socMedia) => (
