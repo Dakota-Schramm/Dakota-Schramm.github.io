@@ -31,19 +31,19 @@ const EducationSection = () => {
           alt="Columbia campus"
         />
         <Text variant="description">
-          I started my time at Columbia as someone who was deeply interested in
-          science, taking courses in Biology, Physics and Mathematics.
-          <br />
+          I studied Mathematics at Columbia University, where I built a strong
+          foundation in analytical thinking and problem-solving. While there, I
+          also took coursework in Java and C, which sparked my passion for
+          software development.
         </Text>
         <Text variant="description">
-          I fell in love with programming when I was taking online courses
-          during covid and decided to try out some basic online courses with{' '}
-          <a href="#">freeCodeCamp</a>.
-          <br />
-        </Text>
-        <br />
-        <Text variant="description">
-          <br />
+          From there, I dove headfirst into web development, completing
+          projects and certifications through{' '}
+          <a href="https://www.freecodecamp.org/">freeCodeCamp</a> in front-end
+          development and React. The combination of a formal math background
+          and hands-on, self-directed learning has shaped how I approach
+          problems — methodically, independently, and with a drive to keep
+          growing.
         </Text>
       </Stack>
     </>
