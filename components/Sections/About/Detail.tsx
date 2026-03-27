@@ -82,7 +82,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
       </UnorderedList>
 
       <Text>
-        I am deeply passionate about developer experience topics such as:
+        I am deeply passionate about topics such as:
         <b>developer experience</b>,{' '}
         <b>test driven development</b>, and{' '}
         <b>AI integration</b>
