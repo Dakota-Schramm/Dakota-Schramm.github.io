@@ -9,6 +9,7 @@ function KLSite({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <AnimatePresence exitBeforeEnter>
       <ChakraProvider theme={theme}>
+        <Analytics />
         <FavIconProvider>
           <Component {...pageProps} />
         </FavIconProvider>
