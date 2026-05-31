@@ -68,7 +68,6 @@ const GetInTouch = () => {
         justifyContent="center"
       >
         <Box
-          spacing={0.5}
           textAlign="center"
           fontFamily="monospace"
           marginRight={{ base: 10, lg: 20, xl: 20 }}
@@ -89,7 +88,6 @@ const GetInTouch = () => {
         </Box>
 
         <Box
-          spacing={0.5}
           textAlign="center"
           fontFamily="monospace"
         >
