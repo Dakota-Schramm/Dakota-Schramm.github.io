@@ -8,7 +8,7 @@ const OpenGraphHead = () => (
     <meta property="og:url" content="https://dakotaschramm.com/" />
     <meta
       property="og:description"
-      content="Ohh you found me?. Howdy! I am Marc Jhon Lawingco. Or you could call me KL. That works too . . . I am a Software Engineer"
+      content="Hey there! I am Dakota Schramm. I am a Software Engineer"
     />
     <meta property="og:type" content="profile" />
     <meta
