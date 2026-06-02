@@ -56,8 +56,8 @@ const Menu = () => {
         padding={{ base: 5, lg: 0 }}
         paddingY={{ base: 5, lg: 0 }}
         backgroundColor={isMobile ? bg : 'transparent'}
-        width="100vw"
-        maxWidth="100vw"
+        width="100%"
+        maxWidth="100%"
         margin={0}
       >
         <Logo />
