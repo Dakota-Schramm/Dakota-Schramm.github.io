@@ -1,6 +1,6 @@
 import { Link } from '@chakra-ui/react'
 
-export type Company = '410Labs'
+export type Company = '410Labs' | 'ODAFF'
 
 export type CompanyDetail = {
   name: string
@@ -19,6 +19,47 @@ export type CompanyDetail = {
 export const Experiences: {
   [key: string]: CompanyDetail
 } = {
+  ODAFF: {
+    name: 'Oklahoma Dept. of Agriculture',
+    longName: 'Oklahoma Department of Agriculture, Food and Forestry',
+    subDetail: 'Food Safety Division',
+    url: 'https://ag.ok.gov/divisions/food-safety/',
+    position: 'API/JavaScript Developer',
+    duration: 'Jun 2025 - Present',
+    logo: {
+      light: '/worked_at_logos/odaff/odaff_light.svg',
+      dark: '/worked_at_logos/odaff/odaff_dark.svg',
+    },
+    roles: [
+      <>
+        Replaced a fully manual, paper-based licensing process (1,000+
+        applications previously processed and paid by hand) by building the
+        department's Homemade Food Public and Admin applications from scratch
+        -- including registration, renewal, and payment flows -- and
+        migrating off a legacy Braintree integration to a new payment module.
+      </>,
+      <>
+        Set up end-to-end test coverage with Playwright and CI/CD pipelines in
+        GitHub Actions (linting, type-checking, e2e tests) to keep the
+        application stable as it grew.
+      </>,
+      <>
+        Designed and implemented a new SQL Server database schema (including
+        system-versioned tables) and led migration of legacy Excel-based
+        licensing records into it.
+      </>,
+      <>
+        Built the admin dashboard for license management -- searchable
+        records, contact/company management, configurable program variables,
+        and automated email notifications.
+      </>,
+      <>
+        Collaborated with engineering and database teams to scope
+        requirements and reduce complexity by clarifying edge cases, and
+        supported QA on a sibling licensing application.
+      </>,
+    ],
+  },
   '410Labs': {
     name: '410 Labs',
     // longName: 'Deloitte Consulthing Phils. Delivery Center',
@@ -65,5 +106,6 @@ export const Experiences: {
 }
 
 export const ExperiencesList = [
+  Experiences.ODAFF,
   Experiences["410Labs"],
 ]

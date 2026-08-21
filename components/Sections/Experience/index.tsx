@@ -16,9 +16,13 @@ const DetailSection = () => (
       Places i’ve worked.
     </Heading>
     <Text variant="description">
-      Currently I am working with{' '}
-      <Link href="https://410labs.com/" target="_blank" rel="noreferrer">
-        410Labs
+      Currently I am working with the{' '}
+      <Link
+        href="https://ag.ok.gov/divisions/food-safety/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Oklahoma Department of Agriculture
       </Link>
       .
     </Text>
