@@ -20,12 +20,12 @@ export const Experiences: {
   [key: string]: CompanyDetail
 } = {
   ODAFF: {
-    name: 'Oklahoma Dept. of Agriculture',
+    name: 'Oklahoma Department of Agriculture, Food and Forestry',
     longName: 'Oklahoma Department of Agriculture, Food and Forestry',
     subDetail: 'Food Safety Division',
     url: 'https://ag.ok.gov/divisions/food-safety/',
     position: 'API/JavaScript Developer',
-    duration: 'Jun 2025 - Present',
+    duration: 'Jun 2026 - Present',
     logo: {
       light: '/worked_at_logos/odaff/odaff_light.svg',
       dark: '/worked_at_logos/odaff/odaff_dark.svg',

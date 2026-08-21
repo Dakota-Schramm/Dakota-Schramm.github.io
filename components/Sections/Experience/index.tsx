@@ -22,7 +22,7 @@ const DetailSection = () => (
         target="_blank"
         rel="noreferrer"
       >
-        Oklahoma Department of Agriculture
+        Oklahoma Department of Agriculture, Food and Forestry
       </Link>
       .
     </Text>
